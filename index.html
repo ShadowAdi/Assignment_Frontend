@@ -6,188 +6,187 @@
     <title>Assignment</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="flex flex-col w-full h-full justify-center items-center">
+    <div
+      id="assignment"
+      class="w-[96%] relative max-h-[500px] my-auto z-10 overflow-hidden min-h-[500px] bg-[#ECEEF6] flex flex-col justify-between pb-5 pt-2 items-start gap-1 text-white mx-auto"
+    >
+      <!-- Diagonal Background -->
+      <div
+        style="clip-path: polygon(0 0, 92% 0, 6% 100%, 0% 100%)"
+        class="bg-[#2A1768] z-[9] h-full px-5 w-full absolute top-0 left-0"
+      ></div>
 
       <div
-        id="assignment"
-        class="w-[96%] relative max-h-[500px] my-auto z-10 overflow-hidden min-h-[500px] bg-[#ECEEF6] flex flex-col justify-between pb-5 pt-2 items-start gap-1 text-white mx-auto"
+        id="text"
+        class="flex flex-col justify-start px-4 py-1 relative z-20 w-[90%] mx-auto"
       >
-        <!-- Diagonal Background -->
-        <div
-          style="clip-path: polygon(0 0, 92% 0, 6% 100%, 0% 100%)"
-          class="bg-[#2A1768] z-[9] h-full px-5 w-full absolute top-0 left-0"
-        ></div>
+        <h1 class="text-xl text-white">Our Services</h1>
+      </div>
 
+      <div
+        class="grid grid-cols-4 px-3 z-20 text-black w-[90%] gap-5 mx-auto py-1"
+      >
         <div
-          id="text"
-          class="flex flex-col justify-start px-4 py-1 relative z-20 w-[90%] mx-auto"
+          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
         >
-          <h1 class="text-xl text-white">Our Services</h1>
+          <div
+            class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
+          >
+            <img
+              src="https://res.cloudinary.com/shadowaditya/image/upload/v1729188532/cpa8x9yuyywwostvad0s.png"
+              class="object-contain h-[100px] w-[100px]"
+              alt=""
+            />
+          </div>
+          <h2 class="text-xl mt-2 font-bold">Emergency Plumbing Services</h2>
+          <p class="mt-2 mb-2 text-black">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero optio
+            voluptatum possimus incidunt magni.
+          </p>
+          <p
+            class="uppercase text-xl font-medium text-[#2A1768] flex items-center gap-2"
+          >
+            Explore This Service
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="#2A1768"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
+            >
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
         </div>
 
         <div
-          class="grid grid-cols-4 px-3 z-20 text-black w-[90%] gap-5 mx-auto py-1"
+          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
         >
           <div
-            class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+            class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
           >
-            <div
-              class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
-            >
-              <img
-                src="https://res.cloudinary.com/shadowaditya/image/upload/v1729188532/cpa8x9yuyywwostvad0s.png"
-                class="object-contain h-[100px] w-[100px]"
-                alt=""
-              />
-            </div>
-            <h2 class="text-xl mt-2 font-bold">Emergency Plumbing Services</h2>
-            <p class="mt-2 mb-2 text-black">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-              optio voluptatum possimus incidunt magni.
-            </p>
-            <p
-              class="uppercase text-xl font-medium text-[#2A1768] flex items-center gap-2"
-            >
-              Explore This Service
-              <svg
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-                fill="#2A1768"
-                xmlns="http://www.w3.org/2000/svg"
-                class="ml-2"
-              >
-                <path
-                  d="M9 18L15 12L9 6"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </p>
+            <img
+              src="https://res.cloudinary.com/shadowaditya/image/upload/v1729188532/askq0fwfz88mvhngriqf.png"
+              class="object-contain h-[100px] w-[100px]"
+              alt=""
+            />
           </div>
+          <h2 class="text-xl mt-2 font-bold">Emergency Plumbing Services</h2>
+          <p class="mt-2 mb-2 text-black">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero optio
+            voluptatum possimus incidunt magni.
+          </p>
+          <p
+            class="uppercase text-xl font-medium text-[#2A1768] flex items-center gap-2"
+          >
+            Explore This Service
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="#2A1768"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
+            >
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
+        </div>
 
+        <div
+          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+        >
           <div
-            class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+            class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
           >
-            <div
-              class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
-            >
-              <img
-                src="https://res.cloudinary.com/shadowaditya/image/upload/v1729188532/askq0fwfz88mvhngriqf.png"
-                class="object-contain h-[100px] w-[100px]"
-                alt=""
-              />
-            </div>
-            <h2 class="text-xl mt-2 font-bold">Emergency Plumbing Services</h2>
-            <p class="mt-2 mb-2 text-black">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-              optio voluptatum possimus incidunt magni.
-            </p>
-            <p
-              class="uppercase text-xl font-medium text-[#2A1768] flex items-center gap-2"
-            >
-              Explore This Service
-              <svg
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-                fill="#2A1768"
-                xmlns="http://www.w3.org/2000/svg"
-                class="ml-2"
-              >
-                <path
-                  d="M9 18L15 12L9 6"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </p>
+            <img
+              src="https://res.cloudinary.com/shadowaditya/image/upload/v1729188532/v2tcd3v9cjob2d9echcl.png"
+              class="object-contain h-[100px] w-[100px]"
+              alt=""
+            />
           </div>
+          <h2 class="text-xl mt-2 font-bold">Emergency Plumbing Services</h2>
+          <p class="mt-2 mb-2 text-black">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero optio
+            voluptatum possimus incidunt magni.
+          </p>
+          <p
+            class="uppercase text-xl font-medium text-[#2A1768] flex items-center gap-2"
+          >
+            Explore This Service
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="#2A1768"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
+            >
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
+        </div>
 
+        <div
+          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+        >
           <div
-            class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+            class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
           >
-            <div
-              class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
-            >
-              <img
-                src="https://res.cloudinary.com/shadowaditya/image/upload/v1729188532/v2tcd3v9cjob2d9echcl.png"
-                class="object-contain h-[100px] w-[100px]"
-                alt=""
-              />
-            </div>
-            <h2 class="text-xl mt-2 font-bold">Emergency Plumbing Services</h2>
-            <p class="mt-2 mb-2 text-black">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-              optio voluptatum possimus incidunt magni.
-            </p>
-            <p
-              class="uppercase text-xl font-medium text-[#2A1768] flex items-center gap-2"
-            >
-              Explore This Service
-              <svg
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-                fill="#2A1768"
-                xmlns="http://www.w3.org/2000/svg"
-                class="ml-2"
-              >
-                <path
-                  d="M9 18L15 12L9 6"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </p>
+            <img
+              src="https://raw.githubusercontent.com/ShadowAdi/Assignment_Frontend/refs/heads/main/images/Heater.avif"
+              class="object-contain h-[100px] w-[100px]"
+              alt=""
+            />
           </div>
-
-          <div
-            class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+          <h2 class="text-xl mt-2 font-bold">Emergency Plumbing Services</h2>
+          <p class="mt-2 mb-2 text-black">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero optio
+            voluptatum possimus incidunt magni.
+          </p>
+          <p
+            class="uppercase text-xl font-medium text-[#2A1768] flex items-center gap-2"
           >
-            <div
-              class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
+            Explore This Service
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="#2A1768"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
             >
-              <img
-                src="https://raw.githubusercontent.com/ShadowAdi/Assignment_Frontend/refs/heads/main/images/Heater.avif"
-                class="object-contain h-[100px] w-[100px]"
-                alt=""
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               />
-            </div>
-            <h2 class="text-xl mt-2 font-bold">Emergency Plumbing Services</h2>
-            <p class="mt-2 mb-2 text-black">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-              optio voluptatum possimus incidunt magni.
-            </p>
-            <p
-              class="uppercase text-xl font-medium text-[#2A1768] flex items-center gap-2"
-            >
-              Explore This Service
-              <svg
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-                fill="#2A1768"
-                xmlns="http://www.w3.org/2000/svg"
-                class="ml-2"
-              >
-                <path
-                  d="M9 18L15 12L9 6"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </p>
-          </div>
+            </svg>
+          </p>
         </div>
       </div>
+    </div>
   </body>
 </html>
