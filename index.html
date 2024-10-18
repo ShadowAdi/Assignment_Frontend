@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   </head>
   <body class="flex flex-col w-full h-screen justify-center items-center">
     <div
@@ -28,7 +29,7 @@
         class="grid grid-cols-4 px-3 z-20 text-black w-[90%] gap-5 mx-auto py-1"
       >
         <div
-          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center service-box"
         >
           <div
             class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
@@ -68,7 +69,7 @@
         </div>
 
         <div
-          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center service-box"
         >
           <div
             class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
@@ -108,7 +109,7 @@
         </div>
 
         <div
-          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center service-box"
         >
           <div
             class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
@@ -148,7 +149,7 @@
         </div>
 
         <div
-          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center"
+          class="flex-col overflow-visible relative rounded gap-1 flex px-3 py-6 max-w-[300px] pt-24 pb-12 items-center justify-center bg-white text-center service-box"
         >
           <div
             class="absolute flex items-center justify-center overflow-visible rounded-full border-[#392374] bg-white border-4 h-[150px] w-[150px] top-[-20%] left-1/2 -translate-x-[50%]"
@@ -188,5 +189,16 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document.querySelectorAll(".service-box").forEach((box) => {
+        box.addEventListener("mouseenter", () => {
+          gsap.to(box, { rotation: 360, duration: 1 });
+        });
+        box.addEventListener("mouseleave", () => {
+          gsap.to(box, { rotation: 0, duration: 1 });
+        });
+      });
+    </script>
   </body>
 </html>
